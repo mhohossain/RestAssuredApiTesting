@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2602" started-at="2020-04-16T21:49:01Z" finished-at="2020-04-16T21:49:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2602" started-at="2020-04-16T21:49:01Z" finished-at="2020-04-16T21:49:03Z">
+      <class name="datadriventesting.Data_Driven_Testing_AddNewEmployees">
+        <test-method status="PASS" signature="getCreateData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventesting.Data_Driven_Testing_AddNewEmployees@59f99ea]" name="getCreateData" duration-ms="1686" started-at="2020-04-16T17:49:01Z" data-provider="empdataprovider" finished-at="2020-04-16T17:49:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCreateData -->
+        <test-method status="PASS" signature="getCreateData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventesting.Data_Driven_Testing_AddNewEmployees@59f99ea]" name="getCreateData" duration-ms="409" started-at="2020-04-16T17:49:02Z" data-provider="empdataprovider" finished-at="2020-04-16T17:49:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCreateData -->
+        <test-method status="PASS" signature="getCreateData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventesting.Data_Driven_Testing_AddNewEmployees@59f99ea]" name="getCreateData" duration-ms="484" started-at="2020-04-16T17:49:03Z" data-provider="empdataprovider" finished-at="2020-04-16T17:49:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qpt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCreateData -->
+      </class> <!-- datadriventesting.Data_Driven_Testing_AddNewEmployees -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
